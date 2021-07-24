@@ -8,3 +8,8 @@
     text-align: right;
     font-family: IRANSans;
 }
+
+.bg-gray {
+    background-color: #404E67;
+    color: #dcdcdd;
+}
