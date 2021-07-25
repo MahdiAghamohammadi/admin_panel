@@ -18,7 +18,20 @@
     flex: 0 0 15rem;
 }
 .body-header {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    /* color: #8f8f8f; */
     width: calc(100% - 15rem); 
     background-color: cadetblue;
+    color: #ffffff;
+}
+.search-area {
+    background-color: #dcdcdc;
+    padding: .3rem .6rem;
+    border-radius: 2rem;
+}
+.search-input {
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    border: none;
+    margin: 0 .6rem;
 }
