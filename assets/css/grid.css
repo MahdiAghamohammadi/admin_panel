@@ -18,11 +18,9 @@
     flex: 0 0 15rem;
 }
 .body-header {
-    /* background-color: #ffffff; */
-    /* color: #8f8f8f; */
+    background-color: #ffffff;
     width: calc(100% - 15rem); 
-    background-color: cadetblue;
-    color: #ffffff;
+    box-shadow: 0 1px 20px 0 rgba(70, 90, 100, .5);
 }
 .search-area {
     background-color: #dcdcdc;
@@ -48,7 +46,6 @@
 .notification-img {
     width: 3rem;
     border-radius: .2rem;
-    /* margin-left: .2rem;  */
 }
 .notification-user {
     font-size: .8rem;
@@ -91,4 +88,34 @@
 .comment-user-status {
     font-size: .4rem;
     margin-top: .8rem;
+}
+.header-avatar {
+    width: 2rem;
+    height: 2rem;
+    border-radius: .3rem;
+    margin: .2rem;
+}
+.header-username {
+    font-size: .8rem;
+}
+.header-profile {
+    position: absolute;
+    margin-top: .2rem;
+    left: 0;
+    z-index: 1000;
+    height: auto;
+    width: 13rem;
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0 1px 20px 0 rgba(70, 90, 100, .08);
+    display: none;
+}
+.header-profile-link {
+    padding: .4rem;
+    font-size: .8rem;
+    line-height: 1.4rem;
+}
+.header-profile-link > i {
+    width: 2rem;
+    text-align: center;
 }
