@@ -64,3 +64,31 @@
     line-height: .6rem;
     color: #919aa3;
 }
+.header-comment {
+    position: absolute;
+    /* left: 0; */
+    height: calc(100vh - 2.7rem);
+    margin-top: .2rem;
+    width: 18rem;
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0 1px 20px 0 rgba(70, 90, 100, .08);
+    border-right: 1px solid rgba(0, 0, 0, 0.125);    
+    display: none;
+}
+.header-comment-wrapper {
+    height: calc(100% - 6rem);
+    overflow: auto;
+}
+.header-comment-wrapper::-webkit-scrollbar {
+    display: none;
+}
+.comment-user {
+    font-size: .75rem;
+    font-weight: bold;
+    margin-top: .8rem;
+}
+.comment-user-status {
+    font-size: .4rem;
+    margin-top: .8rem;
+}
