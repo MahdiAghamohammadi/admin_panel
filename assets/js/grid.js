@@ -27,4 +27,8 @@ $(document).ready(function () {
             $('#sidebar-toggle-show').addClass('d-none');
         });
     });
+
+    $('#menu-toggle').click(function () {
+        $('#body-header').toggle(300);
+    });
 });
