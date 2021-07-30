@@ -265,6 +265,45 @@ button:hover {
     background-color: #f3f3f3;
 }
 
+.info-box-body h5 {
+    font-size: .9rem;
+    line-height: 1rem;
+}
+
+.info-box-body p {
+    font-size: .7rem;
+    line-height: 1rem;
+}
+
+.info-box-icon i {
+    font-size: 2rem;
+}
+
+.info-box-footer {
+    font-size: .8rem;
+}
+
+.main-body-container {
+    background-color: #ffffff;
+    margin: 1rem 0;
+    border-radius: .25rem;
+    padding: 1rem;
+}
+
+.main-body-container h5 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.main-body-container p {
+    font-size: .8rem;
+    color: #777777;
+}
+
+.body-content p {
+    font-size: .8rem;
+}
+
 @media only screen and (max-width: 767.98px) {
     .header {
         display: block;
