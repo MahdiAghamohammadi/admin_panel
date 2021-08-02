@@ -72,7 +72,7 @@
 
 .header-comment {
     position: absolute;
-    /* left: 0; */
+    left: -12.5rem;
     height: calc(100vh - 2.7rem);
     margin-top: .2rem;
     width: 18rem;
@@ -80,6 +80,7 @@
     color: #000000;
     box-shadow: 0 1px 20px 0 rgba(70, 90, 100, .08);
     border-right: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: .2rem;
     display: none;
 }
 
